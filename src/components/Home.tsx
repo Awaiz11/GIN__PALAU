@@ -40,7 +40,7 @@ export default function Home({ onReserve }: { onReserve: () => void }) {
           variants={{ visible: { transition: { staggerChildren: reducedMotion ? 0 : 0.13, delayChildren: 0.15 } } }}
         >
           <motion.p variants={reveal} className="eyebrow hero-eyebrow !text-xs md:!text-sm !tracking-widest"><span />BARCELONA. UNA CASA, MIL HISTORIAS.</motion.p>
-          <motion.h1 variants={reveal} className="hero-name">Gin Palau<span className="hero-period">.</span></motion.h1>
+          <motion.h1 variants={reveal} className="hero-name">Le Rocher<span className="hero-period">.</span></motion.h1>
           <motion.p variants={reveal} className="hero-tagline">El arte del gin tonic.</motion.p>
           <motion.p variants={reveal} className="hero-copy body-copy !text-sm md:!text-base !text-white/80">Cocteler&iacute;a de autor, conversaciones sin prisa y noches que merecen recordarse. Desde 2014, en el coraz&oacute;n del Eixample.</motion.p>
           <motion.div variants={reveal} className="hero-buttons">

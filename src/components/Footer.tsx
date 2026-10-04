@@ -27,9 +27,9 @@ export default function Footer({ onReserve }: { onReserve: () => void }) {
             <p className="footer-muted !text-xs md:!text-sm !text-white/50">Lunes, descansamos.</p>
           </div>
         </div>
-        <p className="footer-wordmark" aria-hidden="true">GIN PALAU</p>
+        <p className="footer-wordmark" aria-hidden="true">LE ROCHER</p>
         <div className="footer-bottom">
-          <span className="!text-[10px] md:!text-xs">&copy; {new Date().getFullYear()} Gin Palau. Barcelona.</span>
+          <span className="!text-[10px] md:!text-xs">&copy; {new Date().getFullYear()} Le Rocher. Barcelona.</span>
           <span className="footer-signature !text-[10px] md:!text-xs">EL ARTE DEL GIN TONIC, DESDE 2014.</span>
           <Link to="/" className="back-top !text-[10px] md:!text-xs !tracking-widest">Volver arriba <ArrowUp size={14} /></Link>
         </div>

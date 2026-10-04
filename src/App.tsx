@@ -19,8 +19,8 @@ function PageBehavior() {
   useEffect(() => {
     document.title =
       pathname === "/menu"
-        ? "The 7 Wonders + 1 | Gin Palau"
-        : "Gin Palau | El arte del Gin Tonic";
+        ? "The 7 Wonders + 1 | Le Rocher"
+        : "Le Rocher Cocktail Bar | El arte del Gin Tonic";
 
     const frame = requestAnimationFrame(() => {
       const target = hash ? document.getElementById(hash.slice(1)) : null;

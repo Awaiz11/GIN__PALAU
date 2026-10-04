@@ -174,7 +174,7 @@ export default function Menu() {
         <div className="hero-shade" />
         <div className="film-grain" aria-hidden="true" />
         <motion.div className="section-shell hero-content" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
-          <motion.p className="eyebrow hero-eyebrow !text-xs md:!text-sm !tracking-widest" initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: .8, delay: .1, ease: EASE }}><span />GIN PALAU / CARTA DE AUTOR</motion.p>
+          <motion.p className="eyebrow hero-eyebrow !text-xs md:!text-sm !tracking-widest" initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: .8, delay: .1, ease: EASE }}><span />LE ROCHER / CARTA DE AUTOR</motion.p>
           <h1 className="menu-hero-title" aria-label="The 7 Wonders + 1"><span className="masked-line"><motion.span initial={{ y: reducedMotion ? 0 : "110%" }} animate={{ y: 0 }} transition={{ duration: 1.2, delay: .15, ease: EASE }}>The 7</motion.span></span><span className="masked-line"><motion.span initial={{ y: reducedMotion ? 0 : "110%" }} animate={{ y: 0 }} transition={{ duration: 1.2, delay: .3, ease: EASE }}><em>Wonders</em><span className="wonders-plus"> + 1</span></motion.span></span></h1>
           <motion.p className="hero-copy body-copy !text-sm md:!text-base !text-white/80" initial={{ opacity: 0, y: 18 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, delay: .5, ease: EASE }}>Un viaje sensorial servido en cada creaci&oacute;n. Siete destinos y una octava maravilla: la tuya.</motion.p>
           <motion.div className="hero-buttons" initial={{ opacity: 0, y: 18 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, delay: .65, ease: EASE }}><a className="button-gold !text-[10px] md:!text-[12px] lg:!text-sm !tracking-widest !font-medium !px-4 !py-2 !h-auto" href="#creaciones">Explorar las creaciones <ArrowDown size={14} strokeWidth={1.5} /></a><a className="text-link !text-[10px] md:!text-[12px] lg:!text-sm !tracking-widest !font-medium" href="#descubridor">Encuentra tu maravilla <ArrowUpRight size={14} strokeWidth={1.5} /></a></motion.div>
@@ -292,7 +292,7 @@ export default function Menu() {
             );
           })}
         </div>
-        <p className="menu-editorial-note !text-xs md:!text-sm !text-white/70">Selecci&oacute;n inspirada en la <a href="https://carta.lerocherbcn.com/" target="_blank" rel="noopener noreferrer">carta de Le Rocher <ArrowUpRight size={14} /></a>. La Octava Maravilla es una adaptaci&oacute;n para Gin Palau. Las recetas, al&eacute;rgenos y perfiles sensoriales son ejemplos editoriales y deben validarse con el equipo antes de publicarse como informaci&oacute;n de servicio.</p>
+        <p className="menu-editorial-note !text-xs md:!text-sm !text-white/70">Selecci&oacute;n inspirada en la <a href="https://carta.lerocherbcn.com/" target="_blank" rel="noopener noreferrer">carta de Le Rocher <ArrowUpRight size={14} /></a>. La Octava Maravilla es una adaptaci&oacute;n para Le Rocher. Las recetas, al&eacute;rgenos y perfiles sensoriales son ejemplos editoriales y deben validarse con el equipo antes de publicarse como informaci&oacute;n de servicio.</p>
         <FadeUp className="menu-ending"><p>El siguiente destino<br /><em>es nuestra barra.</em></p><Link to="/#visita" className="text-link !text-[10px] md:!text-[12px] lg:!text-sm !tracking-widest !font-medium">Vive la experiencia <ArrowUpRight size={16} /></Link></FadeUp>
       </section>
 

@@ -40,7 +40,7 @@ export default function CocktailArt({ cocktail }: { cocktail: Cocktail }) {
       {cocktail.image && !imageFailed ? (
         <img className="cocktail-reference-image" src={cocktail.image} alt={`Ilustraci\u00f3n de ${cocktail.title}`} onError={() => setImageFailed(true)} />
       ) : <GlassDrawing style={cocktail.glassStyle} />}
-      <span className="art-signature" aria-hidden="true">GIN PALAU / CARTA DE AUTOR</span>
+      <span className="art-signature" aria-hidden="true">LE ROCHER / CARTA DE AUTOR</span>
     </div>
   );
 }

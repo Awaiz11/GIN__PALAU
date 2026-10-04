@@ -14,10 +14,10 @@ export function BrandSymbol({ className = "" }: { className?: string }) {
 
 export default function Brand() {
   return (
-    <Link to="/" className="brand" aria-label="Gin Palau, inicio">
+    <Link to="/" className="brand" aria-label="Le Rocher, inicio">
       <BrandSymbol className="brand-symbol" />
       <span>
-        <span className="brand-name">GIN PALAU</span>
+        <span className="brand-name">LE ROCHER</span>
         <span className="brand-caption !text-[10px] md:!text-xs !tracking-widest">BARCELONA <span aria-hidden="true">&middot;</span> EST. 2014</span>
       </span>
     </Link>

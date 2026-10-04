@@ -28,7 +28,7 @@ export default function Reservation({ onClose }: { onClose: () => void }) {
     }
     setReady(true);
   };
-  const body = `Hola, Gin Palau.\n\nMe gustar\u00eda solicitar una mesa:\n\nNombre: ${form.name}\nEmail: ${form.email}\nFecha: ${form.date}\nHora: ${form.time}\nPersonas: ${form.guests}\nComentarios: ${form.notes || "Sin comentarios"}\n\nQuedo a la espera de vuestra confirmaci\u00f3n. Gracias.`;
+  const body = `Hola, Le Rocher Cocktail Bar.\n\nMe gustar\u00eda solicitar una mesa:\n\nNombre: ${form.name}\nEmail: ${form.email}\nFecha: ${form.date}\nHora: ${form.time}\nPersonas: ${form.guests}\nComentarios: ${form.notes || "Sin comentarios"}\n\nQuedo a la espera de vuestra confirmaci\u00f3n. Gracias.`;
   const emailUrl = `mailto:reservas@ginpalau.es?subject=${encodeURIComponent(`Solicitud de reserva | ${form.date} | ${form.guests} personas`)}&body=${encodeURIComponent(body)}`;
 
   return createPortal(
